@@ -1,0 +1,47 @@
+#header-nav {
+  background-color: lightgrey;
+  border-radius: 0;
+  border-bottom: 2px grey solid;
+}
+#header-nav a {
+  color: black;
+}
+#header-nav .navbar-toggle {
+  border: 2px grey solid;
+}
+#nav-list {
+  font-size: 1.2em;
+  background-color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: white;
+}
+#nav-list hr {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#home-tiles p {
+  text-align: justify;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+  background-color: lightgrey;
+  position: relative;
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 30px;
+  height: 700px;
+  color: black;
+}
+.back-to-top {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: black;
+}
+.back-to-top:hover {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+}
